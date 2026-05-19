@@ -20,7 +20,7 @@ It simulates a real-world analytics workflow: from raw transactional data → SQ
 | File | Description |
 |------|-------------|
 | `sales_analytics.sql` | All 10 SQL query sections with setup DDL + sample data |
-| `Sales_Analytics_Insights_Report.docx` | 9-section professional insights report with KPI tables & recommendations |
+|
 | `README.md` | Project overview (this file) |
 
 ---
