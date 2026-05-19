@@ -1,14 +1,11 @@
 -- ============================================================
--- PROJECT: Retail Sales Performance Analysis
--- Author:  [Your Name]
--- Tools:   SQL (SQLite / MySQL / PostgreSQL compatible)
+-- PROJECT: Retail Sales erformance Analysis
+-- Author: rohan mishra
+-- Tools:   MY SQL
 -- Dataset: Simulated retail sales data (2023)
 -- ============================================================
 
--- ============================================================
--- SECTION 0: CREATE & POPULATE SAMPLE TABLES
--- (Run this block to set up the demo database)
--- ============================================================
+=======
 
 CREATE TABLE IF NOT EXISTS customers (
     customer_id   INTEGER PRIMARY KEY,
@@ -37,7 +34,7 @@ CREATE TABLE IF NOT EXISTS orders (
     PRIMARY KEY (order_id, product_id)
 );
 
--- Sample data inserts (abbreviated — full CSV available in /data folder)
+
 INSERT OR IGNORE INTO customers VALUES
   (1001, 'Alpha Corp',     'West',    'Corporate'),
   (1002, 'Beta LLC',       'East',    'Consumer'),
